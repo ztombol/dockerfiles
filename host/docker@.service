@@ -1,0 +1,12 @@
+# Do not forget to start docker with `-r=false`.
+# See http://docs.docker.io/use/host_integration/.
+
+[Unit]
+Description=Docker container %I
+After=docker.service
+Requires=docker.service
+
+[Service]
+Restart=always
+ExecStart=/usr/bin/docker start -a %I
+ExecStop=/usr/bin/docker stop %I
