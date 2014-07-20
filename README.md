@@ -1,7 +1,10 @@
 # Overview
 
 This is a collection of Arch Linux based docker images and support files for
-hosts running them.
+hosts running them. All source files including documentation is licensed under
+[GPLv3][gplv3], except the base image generation script `mkimage-arch.sh` and
+configuration file `mkimage-arch-pacman.conf` that are copied from the [Docker
+project][docker-gh] and are licensed under [Apache 2.0][apache2].
 
 
 # Images
@@ -50,6 +53,9 @@ files for `systemd` integration.
 
 <!-- References -->
 
+[gplv3]: https://www.gnu.org/licenses/gpl.txt
+[apache2]: https://www.apache.org/licenses/LICENSE-2.0.txt
+[docker-gh]: https://github.com/dotcloud/docker
 [ztombol-docker-i386]: https://github.com/ztombol/docker/tree/feat-386-support
 [arch-base]: arch-base
 [arch-mariadb]: arch-mariadb
