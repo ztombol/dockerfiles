@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 #
-# Copyright (C)  2013  Zoltan Vass <zoltan (dot) tombol (at) gmail (dot) com>
+# Copyright (C)  2014  Zoltan Vass <zoltan (dot) tombol (at) gmail (dot) com>
 #
 # This file is part of Dockerfiles.
 #
