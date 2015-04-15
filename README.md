@@ -1,10 +1,8 @@
 # Overview
 
-This is a collection of Arch Linux based docker images and support files for
-hosts running them. All source files including documentation is licensed under
-[GPLv3][gplv3], except the base image generation script `mkimage-arch.sh` and
-configuration file `mkimage-arch-pacman.conf` that are copied from the [Docker
-project][docker-gh] and are licensed under [Apache 2.0][apache2].
+This is a collection of [Arch Linux][arch-linux-hp] based [Docker][docker-gh]
+images and support files for hosts running them. All licensed under the
+[GNU General Public Licence version 3][local-gplv3].
 
 
 # Images
@@ -51,11 +49,38 @@ A collection of files intended to be used on hosts running docker, e.g. service
 files for `systemd` integration.
 
 
+# Licence
+
+This project is licensed under [GPLv3][local-gplv3]. Contribution of any kind is
+welcome. If you find any bugs or have suggestions, open an issue or a pull
+request on the project's [GitHub page][dockerfiles-gh].
+
+The following assets were derived from other projects.
+
+- [`mkimage-arch.sh`][mk-arch] and [`mkimage-arch-pacman.conf`][mk-arch-conf],
+  the script and configuration file generating an Arch Linux root filesystem,
+  are based on files from [Docker][docker-gh]. The originals are licensed under
+  Apache 2.0, while the derived files are covered by [GPLv3][local-gplv3].
+  Docker's [licence][docker-licence] and [attribute notice][docker-notice] are
+  included in the directory of the derived files.
+
+***NOTE:*** *For brevity, copyright notices use ranges to specify years in which
+the copyright is valid. A range ("2014-2016") means that every year,
+inclusively, is a "copyrightable" year that would be listed individually ("2014,
+2015, 2016").*
+
+
 <!-- References -->
 
-[gplv3]: https://www.gnu.org/licenses/gpl.txt
-[apache2]: https://www.apache.org/licenses/LICENSE-2.0.txt
+[arch-linux-hp]: https://archlinux.org
 [docker-gh]: https://github.com/dotcloud/docker
+[local-gplv3]: COPYING
+[dockerfiles-gh]: https://github.com/ztombol/dockerfiles
+[mk-arch]: arch-base/mkimage-arch.sh
+[mk-arch-conf]: arch-base/mkimage-arch-pacman.conf
+[docker-licence]: arch-base/Docker-LICENCE
+[docker-notice]: arch-base/Docker-NOTICE
+
 [ztombol-docker-i386]: https://github.com/ztombol/docker/tree/feat-386-support
 [arch-base]: arch-base
 [arch-mariadb]: arch-mariadb

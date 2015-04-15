@@ -1,4 +1,36 @@
 #!/usr/bin/env bash
+
+#
+# This file (GPLv3 licensed) is based on `contrib/mkimage-arch.sh' (Apache 2.0
+# licensed) from the Docker project [1]. A copy of Docker's licence [2] and
+# attribution notice [3] is included in `Docker-LICENCE' and `Docker-NOTICE'
+# respectively.
+#
+# [1]: https://github.com/docker/docker
+# [2]: https://raw.githubusercontent.com/docker/docker/master/LICENSE
+# [3]: https://raw.githubusercontent.com/docker/docker/master/NOTICE
+#
+
+#
+# Copyright (C)  2014  Zoltan Vass <zoltan (dot) tombol (at) gmail (dot) com>
+#
+# This file is part of Dockerfiles.
+#
+# Dockerfiles is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# Dockerfiles is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with Dockerfiles.  If not, see <http://www.gnu.org/licenses/>.
+#
+
+
 #
 # Generate a minimal filesystem for archlinux. Requires root.
 #
