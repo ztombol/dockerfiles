@@ -1,3 +1,11 @@
+***NOTE:*** *I am in the process of rewriting these images. The new images will
+offer micro-services (one process per container), be more flexible and provide
+the up to date version of the packaged software. See the `devel` branch for
+more. -- 2015-04-16*
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
 # Overview
 
 This is a collection of [Arch Linux][arch-linux-hp] based [Docker][docker-gh]
